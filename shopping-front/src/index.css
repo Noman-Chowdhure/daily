@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+VN+Guides&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.cusBTN {
+  @apply border-[1px] rounded-full capitalize px-5 py-0;
+  background-color: rgba(233, 233, 234, 0.124);
+}
+
