@@ -15,7 +15,7 @@ const UpdateSelf = () => {
         <div className="title w-full h-[20vh]">
             <h1 className=' font-PT text-[3vw] text-center uppercase'>self update</h1>
         </div>
-        <div className=' w-full h-screen  grid grid-cols-3 gap-4 grid-rows-7 justify-center justify-items-center items-center'>
+        <div className=' w-full h-screen  grid md:grid-cols-3 grid-cols-2 gap-4 grid-rows-7 justify-center justify-items-center items-center'>
             {sama.map(abc => {
                 return(
                     <div className=' border-[1px] relative w-full p-4'>
